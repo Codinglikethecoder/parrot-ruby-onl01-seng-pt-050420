@@ -1,5 +1,9 @@
-def parrot_say
-  puts 
+def parrot call: "Squawk"
+  puts call
+end
+
+parrot_say
+
 
 describe '#parrot' do
   it 'should output "Squawk!" to the terminal when called without any arguments' do
