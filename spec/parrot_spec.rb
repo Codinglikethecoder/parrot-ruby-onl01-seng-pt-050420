@@ -2,7 +2,9 @@ def parrot call: "Squawk"
   puts call
 end
 
-parrot_say
+parrot
+
+parrot call: "pretty bird"
 
 
 describe '#parrot' do
